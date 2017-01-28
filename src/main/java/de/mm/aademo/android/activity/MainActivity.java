@@ -58,16 +58,19 @@ public class MainActivity extends Activity {
 
     @Click({R.id.button_login})
     void buttonLoginClicked() {
-
+        doSomethingInTheBackground();
 
 
     }
 
     @Click({R.id.button_start})
     void buttonStartClicked() {
-
+        doSomethingInTheBackground();
     }
 
+    @Background
+    void doSomethingInTheBackground() {
 
+    }
 
 }
